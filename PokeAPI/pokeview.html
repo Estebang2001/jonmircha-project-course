@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéView</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <h1>Pokémons</h1>
+    <div class="botones">
+        <button class="prev" type="submit" hidden>Prev</button>
+        <button class="next" type="submit">Next</button>
+    </div>
+
+    <table>
+        <tbody class="tbody"></tbody>
+    </table>
+    <template id="plantilla-fila">
+        <tr>
+            <td class="imagen"></td>
+            <td class="nombre"></td>
+        </tr>
+    </template>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+
+</html>

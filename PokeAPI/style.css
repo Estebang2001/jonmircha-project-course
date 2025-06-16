@@ -1,0 +1,114 @@
+.tbody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tbody tr {
+
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 5px;
+    background-color: rgb(219, 225, 225);
+    justify-content: center;
+    align-items: center;
+}
+
+.tbody tr img {
+    width: 100px;
+    height: 100px;
+}
+
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #2d3a4b;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+/* Botones */
+button {
+    background: #ffcb05;
+    color: #2d3a4b;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    margin: 10px 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: background 0.2s, color 0.2s;
+}
+
+button:hover:not([hidden]) {
+    background: #2d3a4b;
+    color: #ffcb05;
+}
+
+/* Tabla */
+table {
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    width: 90%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
+    overflow: hidden;
+}
+
+.tbody tr {
+    background: #f6f8fc;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.tbody tr:hover {
+    background: #e0e7ef;
+}
+
+.tbody td {
+    padding: 14px 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #2d3a4b;
+    vertical-align: middle;
+}
+
+/* Imagen de pokemon */
+.tbody .imagen img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #ffcb05;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+    transition: transform 0.2s;
+}
+
+.tbody .imagen img:hover {
+    transform: scale(1.15) rotate(-8deg);
+}
+
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
