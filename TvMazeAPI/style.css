@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #2d3a4b;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+input.filtro {
+    width: 300px;
+    padding: 12px 16px;
+    border: 1px solid #b0bec5;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.06);
+}
+
+input.filtro:focus {
+    border: 1.5px solid #1976d2;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    width: 90%;
+    max-width: 900px;
+    background: rgba(255,255,255,0.97);
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(44,62,80,0.08);
+    overflow: hidden;
+}
+
+.tbody tr {
+    background: #f6f8fc;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.tbody tr:hover {
+    background: #e0e7ef;
+}
+
+.tbody td {
+    padding: 14px 10px;
+    text-align: center;
+    font-size: 1.05rem;
+    color: #2d3a4b;
+    vertical-align: middle;
+}
+
+.tbody .imagen img {
+    width: 80px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #1976d2;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+    background: #fff;
+}
+
+.tbody .nombre {
+    font-weight: bold;
+    color: #1976d2;
+    font-size: 1.1rem;
+}
+
+.tbody .descripcion {
+    text-align: left;
+    font-size: 0.98rem;
+    color: #37474f;
+    max-width: 350px;
+    min-width: 200px;
+}
+
