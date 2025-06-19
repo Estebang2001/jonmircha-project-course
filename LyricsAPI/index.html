@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LyricsAPI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Buscador de canciones</h1>
+    <div>
+        <form>
+            <input type="search" class="artista" required placeholder="Artista">
+            <input type="search" class="cancion" required placeholder="Canción">
+            <input type="submit" class="buscar" value="Buscar">
+        </form>
+    </div>
+
+    <div class="tbody"></div>
+
+
+    <template class="template">
+        <div class="resultado">
+            <h1 class="nombre-artista"></h1>
+            <img src="" alt="" class="imagen-artista">
+            <p class="bio"></p>
+            <h1 class="cancion"></h1>
+            <p class="letra"></p>
+        </div>
+    </template>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+
+</html>
