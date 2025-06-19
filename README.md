@@ -4,3 +4,4 @@ The following projects are part of a course from [JonMircha Youtube channel](htt
 
 - PokeAPI
 - TvMazeAPI
+- LyricsAPI
