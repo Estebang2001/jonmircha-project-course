@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CopomexAPI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Selects Anidados</h1>
+    <h2>México</h2>
+
+    <div>
+        <p>Estados</p>
+        <select name="estado" id="estados" required>
+            <option disabled selected value="value1">Elige un estado</option>
+        </select>
+        <p>Municipios</p>
+        <select name="municipio" id="municipio" required>
+            <option disabled selected value="value1">Elige un municipio</option>
+        </select>
+    </div>
+    <template id="tpl-estado">
+        <option></option>
+    </template>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+
+</html>
